@@ -12,10 +12,6 @@ Access my site at [google.com](https://google.com)
 - [Screenshots](#screenshots)
 - [Technologies](#technologies)
 - [Setup](#setup)
-- [Approach](#approach)
-- [Status](#status)
-- [Credits](#credits)
-- [License](#license)
 
 ## About The App
 
