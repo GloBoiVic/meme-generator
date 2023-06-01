@@ -1,0 +1,43 @@
+$background-color: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Karla', sans-serif;
+}
+
+header {
+  background: $background-color;
+  padding: 2rem;
+}
+
+main {
+  max-width: 40rem;
+  margin: 4rem auto;
+
+  form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    input {
+      font-family: 'Karla', sans-serif;
+      padding: 1rem 1rem;
+      text-indent: 0.2rem;
+      border-radius: 10px;
+      font-size: 1.3rem;
+      border: 1px solid #d5d4d8;
+      box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
+    }
+
+    input:last-child {
+      grid-column: span 2;
+      font-size: 1.5rem;
+      background: $background-color;
+      color: #eee;
+    }
+  }
+}
