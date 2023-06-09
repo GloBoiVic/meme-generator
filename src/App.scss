@@ -1,4 +1,5 @@
 $background-color: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+$accent-bg: linear-gradient(90deg, #672280 1.18%, #8321a7 100%);
 
 * {
   margin: 0;
@@ -7,7 +8,7 @@ $background-color: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
 }
 
 body {
-  font-family: 'Karla', sans-serif;
+  font-family: "Karla", sans-serif;
 }
 
 header {
@@ -24,7 +25,7 @@ main {
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
     input {
-      font-family: 'Karla', sans-serif;
+      font-family: "Karla", sans-serif;
       padding: 1rem 1rem;
       text-indent: 0.2rem;
       border-radius: 10px;
@@ -38,6 +39,16 @@ main {
       font-size: 1.5rem;
       background: $background-color;
       color: #eee;
+      cursor: pointer;
+      margin-bottom: 1.25rem;
+    }
+  }
+
+  .image {
+    img {
+      width: 100%;
+      border-radius: 1.25rem;
+      box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.06);
     }
   }
 }
