@@ -1,4 +1,4 @@
-import memeLogo from '../assets/meme-logo.png';
+import memeLogo from "../assets/meme-logo.png";
 
 export default function Header() {
   return (

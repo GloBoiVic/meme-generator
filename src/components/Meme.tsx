@@ -19,8 +19,10 @@ export default function Meme() {
   gets a new random url everytime
   */
   const getImage = () => {
-    const randomNumber = Math.floor(Math.random() * allMemeImages.length);
-    const url = allMemeImages[randomNumber].url;
+    const randomNumber: number = Math.floor(
+      Math.random() * allMemeImages.length
+    );
+    const url: {} = allMemeImages[randomNumber].url;
     setMeme((prevMeme) => {
       return { ...prevMeme, randomImage: url }; // we return a new object from preMeme
     });
